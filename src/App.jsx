@@ -58,6 +58,16 @@ function App() {
             </div>
           </div>
 
+          {/* CTA to run backend test */}
+          <div className="text-center mb-6">
+            <a
+              href="/test"
+              className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold shadow-lg shadow-blue-500/20 transition-colors"
+            >
+              Check Backend & Database Status
+            </a>
+          </div>
+
           {/* Footer */}
           <div className="text-center">
             <p className="text-sm text-blue-300/60">
